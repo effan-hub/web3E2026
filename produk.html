@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalog Produk & Portofolio - Poliban DigiCraft Studio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Bagian kepala Halaman (Header & Navigasi) -->
-     <header>
-        <h1>Poliban DigiCraft Studio</h1>
-        <p>Solusi Transformasi Bisnis Digital anda di Banjarmasin</p>
-        <hr>
-     </header>
-     <nav>
-        <a href="biodata.html">Tentang Founder</a> |
-        <a href="produk.html">Katalog Jasa & Paket Harga</a>
-     </nav>
-     <hr>
+    <header>
+        <div class="container">
+            <h1>Poliban DigiCraft Studio</h1>
+            <p>Solusi Transformasi Bisnis Digital anda di Banjarmasin</p>
+            <hr>
+            <nav>
+                <a href="biodata.html">Tentang Founder</a> |
+                <a href="produk.html" class="active">Katalog Jasa & Paket Harga</a> |
+                <a href="kontak.html">Kontak & Pemesanan</a>
+            </nav>
+        </div>
+    </header>
+    <hr>
 
-     <section>
+    <section>
         <h2>Portofolio & Karya Unggulan Kami</h2>
 
         <!-- Menampilkan Gambar Mockup ( Gunakan gambar yang ada di folder komputer anda) -->
@@ -30,12 +36,15 @@
         </p>
 
         <p>
-            <h3>Video Profil Bisnis Kami:</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sxCP1lGsju4?si=2Pdc2S7NVQbKHlXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3>Video Profil Bisnis Kami:</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sxCP1lGsju4?si=2Pdc2S7NVQbKHlXs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </p>
-     </section>
-     <hr>
-     <section>
+    </section>
+    <hr>
+    <section>
         <h2>Paket Layanan & Harga Jasa Kreatif</h2>
         <p>Pilih paket layanan terbaik sesuai kebutuhan bisnis digital Anda:</p>
 
@@ -43,7 +52,9 @@
             <thead>
                 <tr bgcolor="#008080">
                     <!-- Judul Tabel menggunakan colspan agar memanajang di 4 kolom  -->
-                     <th colspan="4"><font color="white">DAFTAR HARGA JASA AGENSI DIGITAL</font></th>
+                    <th colspan="4">
+                        <font color="white">DAFTAR HARGA JASA AGENSI DIGITAL</font>
+                    </th>
                 </tr>
                 <tr bgcolor="#F4F7F6">
                     <th>Kategori Layanan</th>
@@ -78,10 +89,11 @@
             </tbody>
 
         </table>
-     </section>
-     <footer>
+    </section>
+    <footer>
         <hr>
         <p align="center">&copy; 2026 Poliban DigiCraft Studio - Hak Cipta Dilindungi Undang-undang.</p>
-     </footer>
+    </footer>
 </body>
+
 </html>
